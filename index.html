@@ -7,7 +7,23 @@
   <title>CountApp PWA</title>
   <link rel="shortcut icon" href="icon-192.png" type="image/png">
   <link rel="manifest" href="manifest.json">
-  <script src="js/main.js"></script>
+  <!-- <script src="js/main.js"></script> -->
+  <script>
+    
+    let counta=0;
+
+    function count() {
+      counta++;
+      document.getElementById("val").innerHTML=counta;
+    }
+
+    window.onload=function(){
+      document.getElementById("count").onclick=function () {
+        count();
+      }
+
+    }
+  </script>
 </head>
 <body>
   <div id="val">0</div>
