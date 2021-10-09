@@ -1,0 +1,16 @@
+{
+  "name": "CountApp PWA",
+  "short_name": "CApp",
+  "description": "PWA練習用",
+  "icons": [
+      {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+      }
+  ],
+  "start_url": "/path/to/index.html",
+  "display": "fullscreen",
+  "theme_color": "#dff0d8",
+  "background_color": "#dff0d8"
+}
